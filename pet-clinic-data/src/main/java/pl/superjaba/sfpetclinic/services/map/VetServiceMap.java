@@ -8,7 +8,7 @@ import java.util.Set;
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
     @Override
     public Vet findById(Long id) {
-        return super.findByID(id);
+        return super.findById(id);
     }
 
     @Override
@@ -28,6 +28,6 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
 
     @Override
     public void deleteById(Long id) {
-        super.deleteByID(id);
+        super.deleteById(id);
     }
 }
